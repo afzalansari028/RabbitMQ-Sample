@@ -18,3 +18,12 @@ This port is used to access the RabbitMQ web-based dashboard in a browser. It he
 Default login cred:
 `Username: guest`
 `Password: guest`
+
+-------------------------RabbitMQ docs---------------------------
+use of exchange parameter(app_exchange):
+
+ExchangeDeclare → Define the routing hub
+
+QueueBind → Tell the hub where messages should go
+
+Publish → Send messages into the hub
