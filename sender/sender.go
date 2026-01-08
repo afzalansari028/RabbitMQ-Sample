@@ -29,9 +29,9 @@ func main() {
 	// Declare queue (creates if not exists)
 	q, err := ch.QueueDeclare(
 		"TestQueue", // queue name
-		false,       // durable
+		false,       // durable - restart lost
 		false,       // auto delete
-		false,       // exclusive
+		false,       // exclusive 
 		false,       // no wait
 		nil,         // args
 	)
