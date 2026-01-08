@@ -1,4 +1,4 @@
-# RabbitMQ Docker Setup
+# RabbitMQ Docker Setup & docs
 
 To run RabbitMQ locally with the management UI enabled:
 
