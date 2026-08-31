@@ -20,6 +20,7 @@ Default login cred:
 `Password: guest`
 
 -------------------------RabbitMQ docs---------------------------
+
 use of exchange parameter(app_exchange):
 
 ExchangeDeclare → Define the routing hub
